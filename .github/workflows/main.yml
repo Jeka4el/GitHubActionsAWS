@@ -6,6 +6,7 @@ env:
   DEPLOY_PACKAGE_NAME       : "flash_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "eu-west-3"
 
+
 on:
   push:
     branches:
