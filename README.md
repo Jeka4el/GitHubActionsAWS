@@ -4,6 +4,6 @@
 
 
 Status of Last Deployment:<br>
-<img src="https://github.com/Jeka4el/GitHubActionsAWS/workflows/CI-CD-Pipeline-to-AWS-ElastikBeastalk/badge.svg?branch=master"><br>
+<img src="https://github.com/Jeka4el/GitHubActionsAWS/workflows/CI-CD-Pipeline-to-AWS-ElastikBeastalk/badge.svg?branch=main"><br>
 
 
