@@ -65,6 +65,7 @@ jobs:
       - name: Deploy ne w ElasticBeanstalk Application Version
         run : aws elasticbeanstalk update-enviroment --enviroment-name ${{ env.EB_ENVIROMMENT_NAME }} --version-label "Ver-${{ github.sha }}"
         
+        
       - name: Print Happy Message fot CD finish
         run : echo "CD Pipeline part finished successfully!"
          
