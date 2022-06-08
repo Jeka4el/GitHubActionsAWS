@@ -2,7 +2,7 @@ name: CI-CD-Pipeline-to-AWS-ElastikBeastalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "flask-aoplication-packages"
   EB_APPLICATION_NAME       : "MyFlask"
-  EB_ENVIROMMENT_NAME       : "MyFlask-env"
+  EB_ENVIROMMENT_NAME       : "MyFlask-env-1"
   DEPLOY_PACKAGE_NAME       : "flash_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "eu-west-3"
 
